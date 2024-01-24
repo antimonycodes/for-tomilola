@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+button{
+  background-color: blue;
+  padding: 4px 7px;
+  border: 1px solid red;
+}
+.card{
+  background-color: yellow;
+  width: 60%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  display: none;
+    box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4, 0 0 200px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
+}
+.card .image{
+  flex-basis: 50%;
+}
+.card .image img{
+  width: 100%;
+}
+.card .content{
+  flex-basis: 50%;
+  background-color: red;
+}
